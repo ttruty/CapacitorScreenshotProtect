@@ -10,6 +10,22 @@
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
 		2F98D68224C9AAE500613A4C /* ScreenshotProtect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D68124C9AAE400613A4C /* ScreenshotProtect.swift */; };
+		47C808EA299D47B600CA63B6 /* HiddenContainerRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808E7299D47B600CA63B6 /* HiddenContainerRecognizer.swift */; };
+		47C808EB299D47B600CA63B6 /* ScreenshotInvincibleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808E8299D47B600CA63B6 /* ScreenshotInvincibleContainer.swift */; };
+		47C808EC299D47B600CA63B6 /* ScreenshotProtectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808E9299D47B600CA63B6 /* ScreenshotProtectController.swift */; };
+		47C808EF299D47C000CA63B6 /* UIView+SnapshotSafeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808EE299D47C000CA63B6 /* UIView+SnapshotSafeController.swift */; };
+		47C808F3299D47C700CA63B6 /* SnapshotSafeViewFlutterInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808F2299D47C700CA63B6 /* SnapshotSafeViewFlutterInterceptor.swift */; };
+		47C808F7299D47CD00CA63B6 /* ScreenshotInvincibleContainerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808F5299D47CD00CA63B6 /* ScreenshotInvincibleContainerProtocol.swift */; };
+		47C808F8299D47CD00CA63B6 /* ScreenshotProtectControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808F6299D47CD00CA63B6 /* ScreenshotProtectControllerProtocol.swift */; };
+		47C808FE299D47EF00CA63B6 /* MultiplatformBridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C808FD299D47EF00CA63B6 /* MultiplatformBridgeView.swift */; };
+		47C80903299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C80900299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridge.swift */; };
+		47C80904299D47F900CA63B6 /* View+SnaphotSafeViewSwiftUIBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C80901299D47F900CA63B6 /* View+SnaphotSafeViewSwiftUIBridge.swift */; };
+		47C80905299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C80902299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift */; };
+		47C8090D299D47FE00CA63B6 /* RootControllerInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C80907299D47FE00CA63B6 /* RootControllerInterceptor.swift */; };
+		47C8090E299D47FE00CA63B6 /* RootControllerExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C80909299D47FE00CA63B6 /* RootControllerExpectation.swift */; };
+		47C8090F299D47FE00CA63B6 /* FlutterExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8090B299D47FE00CA63B6 /* FlutterExpectation.swift */; };
+		47C80910299D47FE00CA63B6 /* RootControllerInterceptorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C8090C299D47FE00CA63B6 /* RootControllerInterceptorProtocol.swift */; };
+		47C80912299D48F700CA63B6 /* ScreenshotProtectConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C80911299D48F700CA63B6 /* ScreenshotProtectConfig.swift */; };
 		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
 		50ADFF97201F53D600D50D53 /* ScreenshotProtectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFF96201F53D600D50D53 /* ScreenshotProtectTests.swift */; };
 		50ADFF99201F53D600D50D53 /* ScreenshotProtectPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADFF8B201F53D600D50D53 /* ScreenshotProtectPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +47,22 @@
 /* Begin PBXFileReference section */
 		2F98D68124C9AAE400613A4C /* ScreenshotProtect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotProtect.swift; sourceTree = "<group>"; };
 		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C808E7299D47B600CA63B6 /* HiddenContainerRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenContainerRecognizer.swift; sourceTree = "<group>"; };
+		47C808E8299D47B600CA63B6 /* ScreenshotInvincibleContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotInvincibleContainer.swift; sourceTree = "<group>"; };
+		47C808E9299D47B600CA63B6 /* ScreenshotProtectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotProtectController.swift; sourceTree = "<group>"; };
+		47C808EE299D47C000CA63B6 /* UIView+SnapshotSafeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SnapshotSafeController.swift"; sourceTree = "<group>"; };
+		47C808F2299D47C700CA63B6 /* SnapshotSafeViewFlutterInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotSafeViewFlutterInterceptor.swift; sourceTree = "<group>"; };
+		47C808F5299D47CD00CA63B6 /* ScreenshotInvincibleContainerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotInvincibleContainerProtocol.swift; sourceTree = "<group>"; };
+		47C808F6299D47CD00CA63B6 /* ScreenshotProtectControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotProtectControllerProtocol.swift; sourceTree = "<group>"; };
+		47C808FD299D47EF00CA63B6 /* MultiplatformBridgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplatformBridgeView.swift; sourceTree = "<group>"; };
+		47C80900299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnaphotSafeViewSwiftUIBridge.swift; sourceTree = "<group>"; };
+		47C80901299D47F900CA63B6 /* View+SnaphotSafeViewSwiftUIBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnaphotSafeViewSwiftUIBridge.swift"; sourceTree = "<group>"; };
+		47C80902299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnaphotSafeViewSwiftUIBridgeProtocol.swift; sourceTree = "<group>"; };
+		47C80907299D47FE00CA63B6 /* RootControllerInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerInterceptor.swift; sourceTree = "<group>"; };
+		47C80909299D47FE00CA63B6 /* RootControllerExpectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerExpectation.swift; sourceTree = "<group>"; };
+		47C8090B299D47FE00CA63B6 /* FlutterExpectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterExpectation.swift; sourceTree = "<group>"; };
+		47C8090C299D47FE00CA63B6 /* RootControllerInterceptorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerInterceptorProtocol.swift; sourceTree = "<group>"; };
+		47C80911299D48F700CA63B6 /* ScreenshotProtectConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotProtectConfig.swift; sourceTree = "<group>"; };
 		50ADFF88201F53D600D50D53 /* Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF8B201F53D600D50D53 /* ScreenshotProtectPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenshotProtectPlugin.h; sourceTree = "<group>"; };
 		50ADFF8C201F53D600D50D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +101,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47C808E6299D47B600CA63B6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				47C808E7299D47B600CA63B6 /* HiddenContainerRecognizer.swift */,
+				47C808E8299D47B600CA63B6 /* ScreenshotInvincibleContainer.swift */,
+				47C808E9299D47B600CA63B6 /* ScreenshotProtectController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		47C808ED299D47C000CA63B6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				47C808EE299D47C000CA63B6 /* UIView+SnapshotSafeController.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		47C808F0299D47C700CA63B6 /* Multiplatform */ = {
+			isa = PBXGroup;
+			children = (
+				47C808F1299D47C700CA63B6 /* Flutter */,
+			);
+			path = Multiplatform;
+			sourceTree = "<group>";
+		};
+		47C808F1299D47C700CA63B6 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				47C808F2299D47C700CA63B6 /* SnapshotSafeViewFlutterInterceptor.swift */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		47C808F4299D47CD00CA63B6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				47C808F5299D47CD00CA63B6 /* ScreenshotInvincibleContainerProtocol.swift */,
+				47C808F6299D47CD00CA63B6 /* ScreenshotProtectControllerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		47C808FC299D47EF00CA63B6 /* MultiplatformBridgeView */ = {
+			isa = PBXGroup;
+			children = (
+				47C808FD299D47EF00CA63B6 /* MultiplatformBridgeView.swift */,
+			);
+			path = MultiplatformBridgeView;
+			sourceTree = "<group>";
+		};
+		47C808FF299D47F900CA63B6 /* SwiftUIBridge */ = {
+			isa = PBXGroup;
+			children = (
+				47C80900299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridge.swift */,
+				47C80901299D47F900CA63B6 /* View+SnaphotSafeViewSwiftUIBridge.swift */,
+				47C80902299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift */,
+			);
+			path = SwiftUIBridge;
+			sourceTree = "<group>";
+		};
+		47C80906299D47FE00CA63B6 /* RootControllerInterceptor */ = {
+			isa = PBXGroup;
+			children = (
+				47C80907299D47FE00CA63B6 /* RootControllerInterceptor.swift */,
+				47C80908299D47FE00CA63B6 /* RootControllerExpectation */,
+				47C8090C299D47FE00CA63B6 /* RootControllerInterceptorProtocol.swift */,
+			);
+			path = RootControllerInterceptor;
+			sourceTree = "<group>";
+		};
+		47C80908299D47FE00CA63B6 /* RootControllerExpectation */ = {
+			isa = PBXGroup;
+			children = (
+				47C80909299D47FE00CA63B6 /* RootControllerExpectation.swift */,
+				47C8090A299D47FE00CA63B6 /* Flutter */,
+			);
+			path = RootControllerExpectation;
+			sourceTree = "<group>";
+		};
+		47C8090A299D47FE00CA63B6 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				47C8090B299D47FE00CA63B6 /* FlutterExpectation.swift */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
 		50ADFF7E201F53D600D50D53 = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +212,16 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				47C80906299D47FE00CA63B6 /* RootControllerInterceptor */,
+				47C808FF299D47F900CA63B6 /* SwiftUIBridge */,
+				47C808FC299D47EF00CA63B6 /* MultiplatformBridgeView */,
+				47C808F4299D47CD00CA63B6 /* Protocols */,
+				47C808F0299D47C700CA63B6 /* Multiplatform */,
+				47C808ED299D47C000CA63B6 /* Library */,
+				47C808E6299D47B600CA63B6 /* Core */,
 				50E1A94720377CB70090CE1A /* ScreenshotProtectPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* ScreenshotProtect.swift */,
+				47C80911299D48F700CA63B6 /* ScreenshotProtectConfig.swift */,
 				50ADFF8B201F53D600D50D53 /* ScreenshotProtectPlugin.h */,
 				50ADFFA72020EE4F00D50D53 /* ScreenshotProtectPlugin.m */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
@@ -306,9 +434,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C808F7299D47CD00CA63B6 /* ScreenshotInvincibleContainerProtocol.swift in Sources */,
+				47C808EF299D47C000CA63B6 /* UIView+SnapshotSafeController.swift in Sources */,
+				47C80905299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridgeProtocol.swift in Sources */,
 				50E1A94820377CB70090CE1A /* ScreenshotProtectPlugin.swift in Sources */,
+				47C808F3299D47C700CA63B6 /* SnapshotSafeViewFlutterInterceptor.swift in Sources */,
+				47C808EC299D47B600CA63B6 /* ScreenshotProtectController.swift in Sources */,
+				47C80912299D48F700CA63B6 /* ScreenshotProtectConfig.swift in Sources */,
+				47C8090E299D47FE00CA63B6 /* RootControllerExpectation.swift in Sources */,
+				47C808FE299D47EF00CA63B6 /* MultiplatformBridgeView.swift in Sources */,
+				47C808EB299D47B600CA63B6 /* ScreenshotInvincibleContainer.swift in Sources */,
+				47C808EA299D47B600CA63B6 /* HiddenContainerRecognizer.swift in Sources */,
+				47C80903299D47F900CA63B6 /* SnaphotSafeViewSwiftUIBridge.swift in Sources */,
+				47C80910299D47FE00CA63B6 /* RootControllerInterceptorProtocol.swift in Sources */,
+				47C808F8299D47CD00CA63B6 /* ScreenshotProtectControllerProtocol.swift in Sources */,
+				47C8090F299D47FE00CA63B6 /* FlutterExpectation.swift in Sources */,
+				47C80904299D47F900CA63B6 /* View+SnaphotSafeViewSwiftUIBridge.swift in Sources */,
 				2F98D68224C9AAE500613A4C /* ScreenshotProtect.swift in Sources */,
 				50ADFFA82020EE4F00D50D53 /* ScreenshotProtectPlugin.m in Sources */,
+				47C8090D299D47FE00CA63B6 /* RootControllerInterceptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
