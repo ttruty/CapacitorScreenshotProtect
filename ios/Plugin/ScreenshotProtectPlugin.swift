@@ -1,6 +1,5 @@
 import Foundation
 import Capacitor
-
 /**
  * Please read the Capacitor iOS Plugin Development Guide
  * here: https://capacitorjs.com/docs/plugins/ios
@@ -15,38 +14,18 @@ public class ScreenshotProtectPlugin: CAPPlugin {
             "value": implementation.echo(value)
         ])
     }
-    
-    private var isEnabled = true
-    private var privacyViewController: UIViewController?
 
-    override public func load() {
-        self.isEnabled = privacyScreenConfig().enable
-        self.privacyViewController = UIViewController()
-        
+    @objc func protectScreen(_ call: CAPPluginCall) {
         DispatchQueue.main.async {
-            let window = self.bridge?.viewController?.view
-            var hiddenFromScreenshot = ScreenshotProtectController(content: window!)
-            hiddenFromScreenshot.setupContentAsHiddenInScreenshotMode() // apply hidden mode
-            
+            self.bridge?.webView?.makeSecure()
         }
-    }
-
-    @objc func enable(_ call: CAPPluginCall) {
-        self.isEnabled = true
         call.resolve()
     }
 
     @objc func disable(_ call: CAPPluginCall) {
-        self.isEnabled = false
-        call.resolve()
-    }
-
-    private func privacyScreenConfig() -> ScreenshotProtectConfig {
-        var config = ScreenshotProtectConfig()
-
-        if let enable = getConfigValue("enable") as? Bool {
-            config.enable = enable
+        DispatchQueue.main.async {
+            self.bridge?.webView?.removeSecure()
         }
-        return config
+        call.resolve()
     }
 }
